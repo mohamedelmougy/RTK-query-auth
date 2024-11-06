@@ -1,0 +1,64 @@
+.form {
+    margin: 2rem auto;
+  }
+  
+  .form fieldset {
+    border: none;
+    margin: 0.5rem 0;
+    padding: 0;
+  }
+  
+  .form input,
+  .form label,
+  .form {
+    font: inherit;
+    display: block;
+  }
+  
+  .form input,
+  .form {
+    width: 100%;
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+  
+  .form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form button {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    margin-top: 0.7rem;
+  }
+  
+  .form button:hover {
+    background-color: hsl(122, 39%, 30%);
+  }
+  
+  .form button[type='button'] {
+    background-color: transparent;
+    color: #c7c4c4;
+  }
+  
+  .form button[type='button']:hover {
+    color: skyblue;
+  }
+  
+  .form button:disabled {
+    background-color: #a2a1a1;
+    color: #515151;
+  }
+  
+  .form button[type='button']:disabled {
+    color: #515151;
+    background-color: transparent;
+  }
+  .error {
+    color: red;
+  }
